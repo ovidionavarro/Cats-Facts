@@ -16,9 +16,7 @@
     "@vitejs/plugin-react": "4.3.4",
     "react": "19.0.0",
     "react-dom": "19.0.0"
-  },
-  "eslintConfig":{
-    "extends":"./node_modules/standard/eslintrc.json"
   }
+
 
 }
