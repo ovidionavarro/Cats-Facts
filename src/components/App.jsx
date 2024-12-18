@@ -1,20 +1,9 @@
 import { useEffect, useState } from "react"
-import { GetRandomFact } from "../services/Facts"
 import { useCatImage } from "../services/hooks/useCatImage"
+import { useCatFact } from "../services/hooks/useCatFact"
 import './style.css'
 
 
-const useCatFact=()=>{
-    const [fact, setFact] = useState(null)
-    const refreshRandomFact=()=>{
-        GetRandomFact().then(setFact)
-    }
-    useEffect(()=>{
-        refreshRandomFact
-    },[])
-    return {fact,refreshRandomFact}
-
-}
 
 export function App() {   
     const {fact,refreshRandomFact}=useCatFact() 
