@@ -1,0 +1,2 @@
+configurar vite en vite.config.js con el plugin de react
+plugin de vite no esta preparado para tenspilar jsx
